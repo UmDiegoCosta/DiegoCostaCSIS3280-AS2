@@ -93,7 +93,6 @@ if(isset($_POST['submit'])){
 		$P_monthlyInvestment = $F_amount / ((1 + $r_rateMonthly) ** $n_termMonthly) - 1;
 		$MonthlyPayment = ($P_monthlyInvestment / $n_termMonthly); //divide the total amount by number of months
 		return $MonthlyPayment;
-		//test
 	}
 
 	//Check if any of the radio buttons were selected
